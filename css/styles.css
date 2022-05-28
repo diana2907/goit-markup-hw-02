@@ -51,7 +51,6 @@ font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.02em;
 color: #757575;
-text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .header-mail:hover,
@@ -76,7 +75,6 @@ color: var(--accent-color);}
 .hero {
     background-color: #2f303A;
 }
-/*фон поставила только, чтобы было видно заголовок*/
 
 .hero-title {
 font-weight: 900;
@@ -96,7 +94,13 @@ line-height: 1.88;
 text-align: center;
 letter-spacing: 0.06em;
 color: var(--second-text-color);
+background-color: var(--accent-color);
 cursor: pointer;
+}
+
+.hero-btn:hover,
+.hero-btn:focus {
+background-color: #188ce8;
 }
 
 /*-----------BENEFITS------------*/
@@ -140,6 +144,10 @@ letter-spacing: 0.03em;
 
 /*---------------FOOTER----------------*/
 
+.footer-logo {
+color: var(--second-text-color);
+}
+
 .footer {
     background-color: #2f303a;;
 }
@@ -174,12 +182,14 @@ font-size: 16px;
 line-height: 1.62;
 letter-spacing: 0.03em;
 color: #212121;
+background-color: #f5f4fa;
 cursor: pointer;
 }
 
 .filter-button:hover,
 .filter-button:focus {
 color: #ffffff;
+background-color: var(--accent-color);
 }
 
 .projects-title {
